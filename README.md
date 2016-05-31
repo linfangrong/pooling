@@ -29,5 +29,6 @@ golang pooling
     dbConn.Do(func(idle interfce{}) (err error) {
     // for some logic
       idle.(*sql.DB)
+      ...
     })
 
